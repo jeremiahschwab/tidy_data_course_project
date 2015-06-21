@@ -10,139 +10,71 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 	
 ### Code Book	
 	
-Subject	Volunteer number
-
-Activity	Activity the volunteer performed
-
-TimeBodyAccelerationMean-X	Average of the average body time domain signal of the X axis of the accelerometer
-
-TimeBodyAccelerationMean-Y	Average of the average body time domain signal of the Y axis of the accelerometer
-
-TimeBodyAccelerationMean-Z	Average of the average body time domain signal of the Z axis of the accelerometer
-
-TimeGravityAccelerationMean-X	Average of the average gravity time domain signal of the X axis of the accelerometer
-
-TimeGravityAccelerationMean-Y	Average of the average gravity time domain signal of the Y axis of the accelerometer
-
-TimeGravityAccelerationMean-Z	Average of the average gravity time domain signal of the Z axis of the accelerometer
-
-TimeBodyAccelerationJerkMean-X	Average of the average body time domain signal of the linear acceleration and angular velocity of the X axis of the accelerometer
-
-TimeBodyAccelerationJerkMean-Y	Average of the average body time domain signal of the linear acceleration and angular velocity of the Y axis of the accelerometer
-
-TimeBodyAccelerationJerkMean-Z	Average of the average body time domain signal of the linear acceleration and angular velocity of the Z axis of the accelerometer
-
-TimeBodyGyroscopeMean-X	Average of the average body time domain signal of the X axis of the gyroscope
-
-TimeBodyGyroscopeMean-Y	Average of the average body time domain signal of the Y axis of the gyroscope
-
-TimeBodyGyroscopeMean-Z	Average of the average body time domain signal of the Z axis of the gyroscope
-
-TimeBodyGyroscopeJerkMean-X	Average of the average body time domain signal of the linear acceleration and angular velocity of the X axis of the gyroscope
-
-TimeBodyGyroscopeJerkMean-Y	Average of the average body time domain signal of the linear acceleration and angular velocity of the Y axis of the gyroscope
-
-TimeBodyGyroscopeJerkMean-Z	Average of the average body time domain signal of the linear acceleration and angular velocity of the Z axis of the gyroscope
-
-TimeBodyAccelerationMagnitudeMean	Average of the average magnitude of the body time domain signal of the accelerometer
-
-TimeGravityAccelerationMagnitudeMean	Average of the average magnitude of the gravity time domain signal of the accelerometer
-
-TimeBodyAccelerationJerkMagnitudeMean	Average of the average magnitude of the body time domain signal of the linear acceleration and angular velocity of the accelerometer
-
-TimeBodyGyroscopeMagnitudeMean	Average of the average magnitude of the body time domain signal of the gyroscope
-
-TimeBodyGyroscopeJerkMagnitudeMean	Average of the average magnitude of the body time domain signal of the linear acceleration and angular velocity of the gyroscope
-
-FrequencyBodyAccelerationMean-X	Average of the average body frequency domain signal of the X axis of the accelerometer
-
-FrequencyBodyAccelerationMean-Y	Average of the average body frequency domain signal of the Y axis of the accelerometer
-
-FrequencyBodyAccelerationMean-Z	Average of the average body frequency domain signal of the Z axis of the accelerometer
-
-FrequencyBodyAccelerationJerkMean-X	Average of the average body frequency domain signal of the linear acceleration and angular velocity of the X axis of the accelerometer
-
-FrequencyBodyAccelerationJerkMean-Y	Average of the average body frequency domain signal of the linear acceleration and angular velocity of the Y axis of the accelerometer
-
-FrequencyBodyAccelerationJerkMean-Z	Average of the average body frequency domain signal of the linear acceleration and angular velocity of the Z axis of the accelerometer
-
-FrequencyBodyGyroscopeMean-X	Average of the average body frequency domain signal of the X axis of the gyroscope
-
-FrequencyBodyGyroscopeMean-Y	Average of the average body frequency domain signal of the Y axis of the gyroscope
-
-FrequencyBodyGyroscopeMean-Z	Average of the average body frequency domain signal of the Z axis of the gyroscope
-
-FrequencyBodyAccelerationMagnitudeMean	Average of the average magnitude of the body frequency domain signal of the accelerometer
-
-FrequencyBodyAccelerationJerkMagnitudeMean	Average of the average magnitude of the body frequency domain signal of the linear acceleration and angular velocity of the accelerometer
-
-FrequencyBodyGyroscopeMagnitudeMean	Average of the average magnitude of the body frequency domain signal of the gyroscope
-
-FrequencyBodyGyroscopeJerkMagnitudeMean	Average of the average magnitude of the body frequency domain signal of the linear acceleration and angular velocity of the gyroscope
-
-TimeBodyAccelerationSTD-X	Average of the standard deviation body time domain signal of the X axis of the accelerometer
-
-TimeBodyAccelerationSTD-Y	Average of the standard deviation body time domain signal of the Y axis of the accelerometer
-
-TimeBodyAccelerationSTD-Z	Average of the standard deviation body time domain signal of the Z axis of the accelerometer
-
-TimeGravityAccelerationSTD-X	Average of the standard deviation gravity time domain signal of the X axis of the accelerometer
-
-TimeGravityAccelerationSTD-Y	Average of the standard deviation gravity time domain signal of the Y axis of the accelerometer
-
-TimeGravityAccelerationSTD-Z	Average of the standard deviation gravity time domain signal of the Z axis of the accelerometer
-
-TimeBodyAccelerationJerkSTD-X	Average of the standard deviation body time domain signal of the linear acceleration and angular velocity of the X axis of the accelerometer
-
-TimeBodyAccelerationJerkSTD-Y	Average of the standard deviation body time domain signal of the linear acceleration and angular velocity of the Y axis of the accelerometer
-
-TimeBodyAccelerationJerkSTD-Z	Average of the standard deviation body time domain signal of the linear acceleration and angular velocity of the Z axis of the accelerometer
-
-TimeBodyGyroscopeSTD-X	Average of the standard deviation body time domain signal of the X axis of the gyroscope
-
-TimeBodyGyroscopeSTD-Y	Average of the standard deviation body time domain signal of the Y axis of the gyroscope
-
-TimeBodyGyroscopeSTD-Z	Average of the standard deviation body time domain signal of the Z axis of the gyroscope
-
-TimeBodyGyroscopeJerkSTD-X	Average of the standard deviation body time domain signal of the linear acceleration and angular velocity of the X axis of the gyroscope
-
-TimeBodyGyroscopeJerkSTD-Y	Average of the standard deviation body time domain signal of the linear acceleration and angular velocity of the Y axis of the gyroscope
-
-TimeBodyGyroscopeJerkSTD-Z	Average of the standard deviation body time domain signal of the linear acceleration and angular velocity of the Z axis of the gyroscope
-
-TimeBodyAccelerationMagnitudeSTD	Average of the standard deviation magnitude of the body time domain signal of the accelerometer
-
-TimeGravityAccelerationMagnitudeSTD	Average of the standard deviation magnitude of the gravity time domain signal of the accelerometer
-
-TimeBodyAccelerationJerkMagnitudeSTD	Average of the standard deviation magnitude of the body time domain signal of the linear acceleration and angular velocity of the accelerometer
-
-TimeBodyGyroscopeMagnitudeSTD	Average of the standard deviation magnitude of the body time domain signal of the gyroscope
-
-TimeBodyGyroscopeJerkMagnitudeSTD	Average of the standard deviation magnitude of the body time domain signal of the linear acceleration and angular velocity of the gyroscope
-
-FrequencyBodyAccelerationSTD-X	Average of the standard deviation body frequency domain signal of the X axis of the accelerometer
-
-FrequencyBodyAccelerationSTD-Y	Average of the standard deviation body frequency domain signal of the Y axis of the accelerometer
-
-FrequencyBodyAccelerationSTD-Z	Average of the standard deviation body frequency domain signal of the Z axis of the accelerometer
-
-FrequencyBodyAccelerationJerkSTD-X	Average of the standard deviation body frequency domain signal of the linear acceleration and angular velocity of the X axis of the accelerometer
-
-FrequencyBodyAccelerationJerkSTD-Y	Average of the standard deviation body frequency domain signal of the linear acceleration and angular velocity of the Y axis of the accelerometer
-
-FrequencyBodyAccelerationJerkSTD-Z	Average of the standard deviation body frequency domain signal of the linear acceleration and angular velocity of the Z axis of the accelerometer
-
-FrequencyBodyGyroscopeSTD-X	Average of the standard deviation body frequency domain signal of the X axis of the gyroscope
-
-FrequencyBodyGyroscopeSTD-Y	Average of the standard deviation body frequency domain signal of the Y axis of the gyroscope
-
-FrequencyBodyGyroscopeSTD-Z	Average of the standard deviation body frequency domain signal of the Z axis of the gyroscope
-
-FrequencyBodyAccelerationMagnitudeSTD	Average of the standard deviation magnitude of the body frequency domain signal of the accelerometer
-
-FrequencyBodyAccelerationJerkMagnitudeSTD	Average of the standard deviation magnitude of the body frequency domain signal of the linear acceleration and angular velocity of the accelerometer
-
-FrequencyBodyGyroscopeMagnitudeSTD	Average of the standard deviation magnitude of the body frequency domain signal of the gyroscope
-
-FrequencyBodyGyroscopeJerkMagnitudeSTD	Average of the standard deviation magnitude of the body frequency domain signal of the linear acceleration and angular velocity of the gyroscope
-
+Subject:	Volunteer number
+Activity:	Activity the volunteer performed
+TimeBodyAccelerationMean-X:	Average of the average body time domain signal of the X axis of the accelerometer
+TimeBodyAccelerationMean-Y:	Average of the average body time domain signal of the Y axis of the accelerometer
+TimeBodyAccelerationMean-Z:	Average of the average body time domain signal of the Z axis of the accelerometer
+TimeGravityAccelerationMean-X:	Average of the average gravity time domain signal of the X axis of the accelerometer
+TimeGravityAccelerationMean-Y:	Average of the average gravity time domain signal of the Y axis of the accelerometer
+TimeGravityAccelerationMean-Z:	Average of the average gravity time domain signal of the Z axis of the accelerometer
+TimeBodyAccelerationJerkMean-X:	Average of the average body time domain signal of the linear acceleration and angular velocity of the X axis of the accelerometer
+TimeBodyAccelerationJerkMean-Y:	Average of the average body time domain signal of the linear acceleration and angular velocity of the Y axis of the accelerometer
+TimeBodyAccelerationJerkMean-Z:	Average of the average body time domain signal of the linear acceleration and angular velocity of the Z axis of the accelerometer
+TimeBodyGyroscopeMean-X:	Average of the average body time domain signal of the X axis of the gyroscope
+TimeBodyGyroscopeMean-Y:	Average of the average body time domain signal of the Y axis of the gyroscope
+TimeBodyGyroscopeMean-Z:	Average of the average body time domain signal of the Z axis of the gyroscope
+TimeBodyGyroscopeJerkMean-X:	Average of the average body time domain signal of the linear acceleration and angular velocity of the X axis of the gyroscope
+TimeBodyGyroscopeJerkMean-Y:	Average of the average body time domain signal of the linear acceleration and angular velocity of the Y axis of the gyroscope
+TimeBodyGyroscopeJerkMean-Z:	Average of the average body time domain signal of the linear acceleration and angular velocity of the Z axis of the gyroscope
+TimeBodyAccelerationMagnitudeMean:	Average of the average magnitude of the body time domain signal of the accelerometer
+TimeGravityAccelerationMagnitudeMean:	Average of the average magnitude of the gravity time domain signal of the accelerometer
+TimeBodyAccelerationJerkMagnitudeMean:	Average of the average magnitude of the body time domain signal of the linear acceleration and angular velocity of the accelerometer
+TimeBodyGyroscopeMagnitudeMean:	Average of the average magnitude of the body time domain signal of the gyroscope
+TimeBodyGyroscopeJerkMagnitudeMean:	Average of the average magnitude of the body time domain signal of the linear acceleration and angular velocity of the gyroscope
+FrequencyBodyAccelerationMean-X:	Average of the average body frequency domain signal of the X axis of the accelerometer
+FrequencyBodyAccelerationMean-Y:	Average of the average body frequency domain signal of the Y axis of the accelerometer
+FrequencyBodyAccelerationMean-Z:	Average of the average body frequency domain signal of the Z axis of the accelerometer
+FrequencyBodyAccelerationJerkMean-X:	Average of the average body frequency domain signal of the linear acceleration and angular velocity of the X axis of the accelerometer
+FrequencyBodyAccelerationJerkMean-Y:	Average of the average body frequency domain signal of the linear acceleration and angular velocity of the Y axis of the accelerometer
+FrequencyBodyAccelerationJerkMean-Z:	Average of the average body frequency domain signal of the linear acceleration and angular velocity of the Z axis of the accelerometer
+FrequencyBodyGyroscopeMean-X:	Average of the average body frequency domain signal of the X axis of the gyroscope
+FrequencyBodyGyroscopeMean-Y:	Average of the average body frequency domain signal of the Y axis of the gyroscope
+FrequencyBodyGyroscopeMean-Z:	Average of the average body frequency domain signal of the Z axis of the gyroscope
+FrequencyBodyAccelerationMagnitudeMean:	Average of the average magnitude of the body frequency domain signal of the accelerometer
+FrequencyBodyAccelerationJerkMagnitudeMean:	Average of the average magnitude of the body frequency domain signal of the linear acceleration and angular velocity of the accelerometer
+FrequencyBodyGyroscopeMagnitudeMean:	Average of the average magnitude of the body frequency domain signal of the gyroscope
+FrequencyBodyGyroscopeJerkMagnitudeMean:	Average of the average magnitude of the body frequency domain signal of the linear acceleration and angular velocity of the gyroscope
+TimeBodyAccelerationSTD-X:	Average of the standard deviation body time domain signal of the X axis of the accelerometer
+TimeBodyAccelerationSTD-Y:	Average of the standard deviation body time domain signal of the Y axis of the accelerometer
+TimeBodyAccelerationSTD-Z:	Average of the standard deviation body time domain signal of the Z axis of the accelerometer
+TimeGravityAccelerationSTD-X:	Average of the standard deviation gravity time domain signal of the X axis of the accelerometer
+TimeGravityAccelerationSTD-Y:	Average of the standard deviation gravity time domain signal of the Y axis of the accelerometer
+TimeGravityAccelerationSTD-Z:	Average of the standard deviation gravity time domain signal of the Z axis of the accelerometer
+TimeBodyAccelerationJerkSTD-X:	Average of the standard deviation body time domain signal of the linear acceleration and angular velocity of the X axis of the accelerometer
+TimeBodyAccelerationJerkSTD-Y:	Average of the standard deviation body time domain signal of the linear acceleration and angular velocity of the Y axis of the accelerometer
+TimeBodyAccelerationJerkSTD-Z:	Average of the standard deviation body time domain signal of the linear acceleration and angular velocity of the Z axis of the accelerometer
+TimeBodyGyroscopeSTD-X:	Average of the standard deviation body time domain signal of the X axis of the gyroscope
+TimeBodyGyroscopeSTD-Y:	Average of the standard deviation body time domain signal of the Y axis of the gyroscope
+TimeBodyGyroscopeSTD-Z:	Average of the standard deviation body time domain signal of the Z axis of the gyroscope
+TimeBodyGyroscopeJerkSTD-X:	Average of the standard deviation body time domain signal of the linear acceleration and angular velocity of the X axis of the gyroscope
+TimeBodyGyroscopeJerkSTD-Y:	Average of the standard deviation body time domain signal of the linear acceleration and angular velocity of the Y axis of the gyroscope
+TimeBodyGyroscopeJerkSTD-Z:	Average of the standard deviation body time domain signal of the linear acceleration and angular velocity of the Z axis of the gyroscope
+TimeBodyAccelerationMagnitudeSTD:	Average of the standard deviation magnitude of the body time domain signal of the accelerometer
+TimeGravityAccelerationMagnitudeSTD:	Average of the standard deviation magnitude of the gravity time domain signal of the accelerometer
+TimeBodyAccelerationJerkMagnitudeSTD:	Average of the standard deviation magnitude of the body time domain signal of the linear acceleration and angular velocity of the accelerometer
+TimeBodyGyroscopeMagnitudeSTD:	Average of the standard deviation magnitude of the body time domain signal of the gyroscope
+TimeBodyGyroscopeJerkMagnitudeSTD:	Average of the standard deviation magnitude of the body time domain signal of the linear acceleration and angular velocity of the gyroscope
+FrequencyBodyAccelerationSTD-X:	Average of the standard deviation body frequency domain signal of the X axis of the accelerometer
+FrequencyBodyAccelerationSTD-Y:	Average of the standard deviation body frequency domain signal of the Y axis of the accelerometer
+FrequencyBodyAccelerationSTD-Z:	Average of the standard deviation body frequency domain signal of the Z axis of the accelerometer
+FrequencyBodyAccelerationJerkSTD-X:	Average of the standard deviation body frequency domain signal of the linear acceleration and angular velocity of the X axis of the accelerometer
+FrequencyBodyAccelerationJerkSTD-Y:	Average of the standard deviation body frequency domain signal of the linear acceleration and angular velocity of the Y axis of the accelerometer
+FrequencyBodyAccelerationJerkSTD-Z:	Average of the standard deviation body frequency domain signal of the linear acceleration and angular velocity of the Z axis of the accelerometer
+FrequencyBodyGyroscopeSTD-X:	Average of the standard deviation body frequency domain signal of the X axis of the gyroscope
+FrequencyBodyGyroscopeSTD-Y:	Average of the standard deviation body frequency domain signal of the Y axis of the gyroscope
+FrequencyBodyGyroscopeSTD-Z:	Average of the standard deviation body frequency domain signal of the Z axis of the gyroscope
+FrequencyBodyAccelerationMagnitudeSTD:	Average of the standard deviation magnitude of the body frequency domain signal of the accelerometer
+FrequencyBodyAccelerationJerkMagnitudeSTD:	Average of the standard deviation magnitude of the body frequency domain signal of the linear acceleration and angular velocity of the accelerometer
+FrequencyBodyGyroscopeMagnitudeSTD:	Average of the standard deviation magnitude of the body frequency domain signal of the gyroscope
+FrequencyBodyGyroscopeJerkMagnitudeSTD:	Average of the standard deviation magnitude of the body frequency domain signal of the linear acceleration and angular velocity of the gyroscope
