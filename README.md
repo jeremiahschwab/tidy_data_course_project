@@ -1,11 +1,18 @@
 # Tidy Data Project
 Data used for this project was downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip on 6/19/15. The files were extracted directly into the working directory without altering any of the folders or files. For example, to open the README.txt that came in the zip file, you would navigate to "Working Directory/UCI HAR Dataset/README.txt"
 
-### Instructions for Reading the tidy_data.txt in RStudio
+### Instructions for reading the tidy_data.txt in RStudio
 
 1. Download tidy_data.txt to your working directory.
-2. Run the following in RStudio "data <- read.table(file_path, header = TRUE)
+2. Run the following in RStudio "data <- read.table(file_path, header = TRUE)"
 3. To view the data, run the following "View(data)"
+
+### Instructions for running my run_analysis.R code
+
+1. Ensure you have downloaded and extracted the file at the top of this file to your working directory. You should be able to navigate to the X_test file accordingly: Working Directory/UCI HAR Dataset/test/X_test.txt
+2. Run the following "source("run_analysis.R")"
+3. Run the following "data <- run_analysis()"
+4. Run the following "View(data)"
 
 ### Instructions to Create Tidy Data
 
