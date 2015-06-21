@@ -1,6 +1,12 @@
 # Tidy Data Project
 Data used for this project was downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip on 6/19/15. The files were extracted directly into the working directory without altering any of the folders or files. For example, to open the README.txt that came in the zip file, you would navigate to "Working Directory/UCI HAR Dataset/README.txt"
 
+### Instructions for Reading the tidy_data.txt in RStudio
+
+1. Download tidy_data.txt to your working directory.
+2. Run the following in RStudio "data <- read.table(file_path, header = TRUE)
+3. To view the data, run the following "View(data)"
+
 ### Instructions to Create Tidy Data
 
 Using RStudio Version 0.98.1103
